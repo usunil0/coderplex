@@ -10,3 +10,10 @@ export default ({ children }) => (
     <Footer />
   </div>
 );
+
+export const LayoutNoFooter = ({ children }) => (
+  <div>
+    <Header />
+    {children}
+  </div>
+);

@@ -7,7 +7,7 @@ import FaGithub from 'react-icons/lib/fa/github-alt';
 import FaInstagram from 'react-icons/lib/fa/instagram';
 import FaTwitter from 'react-icons/lib/fa/twitter';
 
-import { Container, baseButton } from '../../../utils/base.styles';
+import { Container } from '../../../utils/base.styles';
 import { baseEventsURL, subscribeURL } from '../../../utils/urls';
 
 const Footer = styled.footer`
@@ -83,7 +83,6 @@ const Form = styled.form`
     font-size: 1rem;
   }
   & button {
-    ${baseButton};
     padding: 0.6rem 1rem;
     font-size: 1rem;
     border: none;

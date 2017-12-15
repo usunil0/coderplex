@@ -38,20 +38,8 @@ export const Container = styled.div`
   ${baseContainer};
 `;
 
-export const baseButton = css`
-  background: #7657fb;
-  padding: 0.2rem 1rem;
-  color: #fff;
-  text-decoration: none;
-  transition: all 0.25s;
-  &:hover {
-    background: #6f19ed;
-    font-weight: normal;
-  }
-`;
-
 export const Button = styled.a`
-  ${baseButton};
+  text-decoration: none;
   width: ${props => (props.fluid ? '100%' : 'auto')}
   background: ${props => (props.inverted ? '#7657fb' : props.ghost ? '#fff' : '#fff')}
   color: ${props => (props.inverted ? '#fff' : props.ghost ? purpleSecondary : '#222')}
@@ -63,6 +51,7 @@ export const Button = styled.a`
   cursor: pointer;
   user-select: none;
   -webkit-touch-callout: none;
+  transition: all 0.25s;
   &:hover {
     font-weight: ${props => (props.ghost ? 600 : 500)};
     background: ${props => (props.inverted ? purpleSecondary : props.ghost ? purpleSecondary : '#eee')};
