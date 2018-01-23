@@ -1054,7 +1054,7 @@ babel-register@^6.26.0:
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
-babel-runtime@6.26.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0, babel-runtime@^6.6.1:
+babel-runtime@6.26.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
   dependencies:
@@ -5919,11 +5919,9 @@ rc@~1.1.6:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-content-loader@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-1.7.1.tgz#e6e18adbf632829fd56ba6fe558d16d2a5a00af9"
-  dependencies:
-    babel-runtime "^6.6.1"
+react-content-loader@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/react-content-loader/-/react-content-loader-3.0.0.tgz#4fcee36876528da3b86242a1d12df159fee37539"
 
 react-deep-force-update@^2.1.1:
   version "2.1.1"
@@ -7219,9 +7217,9 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typescript-styled-plugin@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/typescript-styled-plugin/-/typescript-styled-plugin-0.3.0.tgz#3374fd7769264810459c4fd3a530719f2984440a"
+typescript-styled-plugin@^0.3.0:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/typescript-styled-plugin/-/typescript-styled-plugin-0.3.1.tgz#30396fb845103e20c20251b354b880f76979ec3e"
   dependencies:
     typescript-template-language-service-decorator "^1.1.0"
     vscode-css-languageservice "^2.1.10"
